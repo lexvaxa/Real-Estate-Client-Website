@@ -1,0 +1,16 @@
+{
+  "name": "compocapitaladvisors",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Compo Capital Advisors — Capital Raising Firm & Merchant Bank",
+  "scripts": {
+    "install:backend": "cd src/backend && npm install",
+    "start": "cd src/backend && node server.js",
+    "dev": "cd src/backend && node server.js"
+  },
+  "author": "Compo Capital Advisors",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "jimp": "^1.6.1"
+  }
+}
